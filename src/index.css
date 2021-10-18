@@ -1,0 +1,66 @@
+.banner {
+    background: url('https://via.placeholder.com/2100x500');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-header {
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.subheader {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner {
+    margin-bottom: 85px;
+}
+
+.introduction {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction p {
+    width: 100%;
+    white-space: initial;
+}
+
+.section-text {
+    width: 40%;
+}
+
+.section-text h2 {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.section-text p {
+    font-size: 24px;
+}
+
+.introduction-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introduction-article:nth-child(2) {
+    flex-direction: row-reverse;
+    margin-top: 123px;
+}
+
+.about-us-link {
+    text-decoration: underline;
+}

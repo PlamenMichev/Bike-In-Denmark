@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #999999;
+    display: flex;
+    align-items: center;
+    height: 79px;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+#logo {
+    width: 76px;
+    height: 65px;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 24px;
+}
+
+.nav-link:first-child {
+    margin-right: 24px;
+}
+
+#logo-prototype {
+    width: 76px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
