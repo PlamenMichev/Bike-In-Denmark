@@ -61,6 +61,92 @@
     margin-top: 123px;
 }
 
-.about-us-link {
+.inline-link {
     text-decoration: underline;
+}
+
+.top-articles-header {
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.article-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.article-sumarry {
+    font-size: 18px;
+}
+
+.top-articles {
+    margin: 73px 0 42px 0;
+    padding: 0 50px;
+}
+
+.subscribe-to-newsletter {
+    text-align: center;
+    margin-bottom: 81px;
+}
+
+.newsletter-header {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.newsletter-subheader {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 13px;
+}
+
+.subscribe-button {
+    font-size: 18px;
+    font-weight: 600;
+    height: 35px;
+    text-transform: uppercase;
+}
+
+.subscribe-input {
+    width: 272px;
+    height: 31px;
+    margin-right: 19px;
+}
+
+.input-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 94px;
+    background-color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.footer span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.social-icons a {
+    margin: 0 10px;
 }
