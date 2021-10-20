@@ -1,0 +1,91 @@
+.header {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 127px;
+    margin-bottom: 54px;
+}
+
+.essentials {
+    display: flex;
+    justify-content: center;
+}
+
+.essential {
+    overflow: visible;
+    width: 278px;
+    height: 340px;
+    background-color: #999999;
+    border-radius: 20px;
+    position: relative;
+}
+
+.essential:nth-child(even) {
+    background-color: #d4d4d4;
+}
+
+.essential::before {
+    content: "";
+    position: absolute;
+    top: 50%;                         
+    transform: translateY(-50%);  
+    right: -68px;
+    border: 34px solid transparent;
+    border-left-color: #999999;
+    z-index: 1;
+}
+
+.essential:nth-child(even)::before {
+    border-left-color: #d4d4d4;
+}
+
+.essential:last-of-type::before {
+    border: none;
+}
+
+.card-header {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-benefits {
+    overflow: visible;
+    margin-left: 25px;
+}
+
+.card-benefits li {
+    margin-bottom: 5px;
+    overflow: visible;
+    font-size: 18px;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+}
+
+.scroll-indicator {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.goot-to-haves {
+    display: flex;
+    justify-content: space-around;
+}
+
+.goot-to-have {
+    overflow: visible;
+    width: 278px;
+    height: 340px;
+    background-color: #999999;
+    border-radius: 20px;
+}

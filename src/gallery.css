@@ -27,7 +27,3 @@
 .image-article {
     margin-bottom: 74px;
 }
-
-.image-article:nth-last-of-type(2) {
-    float: right;
-}
