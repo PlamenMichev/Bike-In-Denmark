@@ -14,7 +14,7 @@ main {
 
 .side-nav {
     width: 20%;
-} */
+}
 
 #article-header {
     font-size: 50px;
@@ -43,16 +43,19 @@ main {
 }
 
 .side-nav h4:hover {
-    background-color: #999999;
+    background-color: #05386b;
+    color: #edf5e1;
 }
 
 .side-nav ul li:hover {
-    background-color: #999999;
+    background-color: #05386b;
+    color: #edf5e1;
 }
 
 
 .side-nav .active {
-    background-color: #999999;
+    background-color: #05386b;
+    color: #edf5e1;
 }
 
 .intro-text {
@@ -86,6 +89,7 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 57px;
+    justify-content: flex-start;
 }
 
 .reson-description {
@@ -119,5 +123,15 @@ main {
 }
 
 .sidenav-link {
-    color: black;
+    color: #05386b;
+}
+
+.first-part .reason:nth-of-type(2) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.first-part .reason:nth-of-type(2) > p {
+    margin-right: 19px;
+    margin-left: 0;
 }
