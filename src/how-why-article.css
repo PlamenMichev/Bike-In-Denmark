@@ -66,6 +66,8 @@ main {
 
 .banner-image {
     margin-top: 21px;
+    width: 957px;
+    height: 390px;
 }
 
 .under-image-paragraph {
@@ -134,4 +136,14 @@ main {
 .first-part .reason:nth-of-type(2) > p {
     margin-right: 19px;
     margin-left: 0;
+}
+
+.first-part-image {
+    width: 361px;
+    height: 273px;
+}
+
+.second-part-image {
+    width: 969px;
+    height: 316px;
 }

@@ -1,12 +1,12 @@
 .banner {
     background: url('images/banner-image.jpg');
     height: 500px;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-start;
     padding: 50px;
     flex-direction: column;
@@ -17,6 +17,7 @@
     font-size: 60px;
     font-weight: 900;
     text-transform: uppercase;
+    filter: drop-shadow(10px 3px 7px black);
 }
 
 .subheader {
@@ -24,6 +25,7 @@
     font-size: 50px;
     font-weight: 600;
     text-align: end;
+    filter: drop-shadow(10px 3px 7px black);
 }
 
 .banner {
@@ -95,4 +97,14 @@
 .top-articles {
     margin: 73px 0 42px 0;
     padding: 0 50px;
+}
+
+.mission-image {
+    width: 525px;
+    height: 363px;
+}
+
+.article-image {
+    width: 395px; 
+    height: 234px;
 }
