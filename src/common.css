@@ -40,8 +40,12 @@ nav {
     opacity: .7;
 }
 
-.nav-link:first-child {
+.nav-link {
     margin-right: 24px;
+}
+
+.nav-link:last-of-type {
+    margin-right: 16px;
 }
 
 #logo-prototype {
